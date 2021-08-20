@@ -20,6 +20,11 @@ section {
   /* border: 5px solid green; */
 }
 
+section :nth-of-type(even) {
+  color: red;
+  background-color: rgb(179 180 191);s;
+}
+
 .article {
   border: 2px solid yellow;
   text-align: center;
@@ -92,6 +97,7 @@ input {
     grid-auto-rows: 400px;
     grid-gap: 20px;
   }
+
   .article {
     /* min-height: 50%; */
     /* width: min-content;  */
@@ -99,6 +105,7 @@ input {
     border: 5px solid grey;
     border-radius: 20px;
   }
+
   .article__content {
     margin: 5px 0 10px;
     padding: 5px 0;
