@@ -22,7 +22,7 @@ section {
 
 section :nth-of-type(even) {
   color: red;
-  background-color: rgb(179 180 191);s;
+  background-color: rgb(179 180 191);
 }
 
 .article {
