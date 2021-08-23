@@ -11,6 +11,16 @@
   --fs-h2: 1.5rem;
   --fs-h3: 1.25rem;
 }
+a {
+  text-decoration: none;
+  font-size: var(--fs-h3);
+}
+.quiz__btn {
+  border: 2px solid red;
+  background-color: yellow;
+  width: 100px;
+  margin: 25px auto 0;
+}
 
 /* main {
   border: 2px solid red;
@@ -92,7 +102,7 @@ input {
   section {
     display: grid;
     width: 80%;
-    margin: 25vh auto 0;
+    margin: 15vh auto 0;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: 400px;
     grid-gap: 20px;
